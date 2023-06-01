@@ -1,0 +1,9 @@
+/home/sag/Downloads/real-time-task-generators-main/jobsets/jobset-taskset-1.csv,  1,  77,  20,  19,  1,  0.000660,  4.226562,  0,  4,  12,  0,  70
+/home/sag/Downloads/real-time-task-generators-main/jobsets/jobset-taskset-2.csv,  1,  3812,  1996,  2460,  35,  0.945118,  7.171875,  0,  4,  996,  300,  3924
+/home/sag/Downloads/real-time-task-generators-main/jobsets/jobset-taskset-3.csv,  1,  1047,  324,  323,  1,  0.010732,  5.125000,  0,  4,  233,  3,  957
+/home/sag/Downloads/real-time-task-generators-main/jobsets/jobset-taskset-4.csv,  1,  2761,  2183,  3036,  33,  0.131617,  6.675781,  0,  4,  1262,  411,  4384
+/home/sag/Downloads/real-time-task-generators-main/jobsets/jobset-taskset-5.csv,  1,  377,  129,  128,  1,  0.004194,  4.472656,  0,  4,  104,  2,  353
+/home/sag/Downloads/real-time-task-generators-main/jobsets/jobset-taskset-6.csv,  1,  27657,  10091,  10090,  1,  23.381997,  29.101562,  0,  4,  7409,  0,  24976
+/home/sag/Downloads/real-time-task-generators-main/jobsets/jobset-taskset-7.csv,  1,  31548,  18612,  22196,  36,  8.238746,  28.808594,  0,  4,  9988,  1743,  33487
+/home/sag/Downloads/real-time-task-generators-main/jobsets/jobset-taskset-8.csv,  0,  1831,  605,  763,  20,  0.249379,  5.632812,  0,  4,  285,  138,  965
+/home/sag/Downloads/real-time-task-generators-main/jobsets/jobset-taskset-9.csv,  0,  3743,  62,  126,  21,  0.007309,  6.984375,  0,  4,  29,  28,  126
