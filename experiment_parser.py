@@ -5,7 +5,7 @@ import matplotlib.ticker as ticker
 import numpy
 
 
-experiment1 = [10,20,30,40,50,60,70,80]
+experiment1 = [10,20,30,40,50,60,70,80,90,100]
 res_experiment1_por = []
 res_experiment1_nml = []
 res_ex1_total = []
@@ -163,9 +163,9 @@ def parse_experiment(nml, por, experiment):
 		experiment_result.append(percentage_swap((por_mem[0]/max(nml_mem[0],1))*100))
 		experiment_result.append(percentage_swap((por_mem[1]/max(nml_mem[1],1))*100))
 		
-		experiment_result.append([(nml_sched/500)*100, (por_sched/500)*100])
+		experiment_result.append([(nml_sched/len(nml[ex]))*100, (por_sched/len(nml[ex]))*100])
 		experiment_result.append([por_succ[0], por_fail[0]])
-		experiment_result.append(por_jpp[0]/por_succ[0])
+		experiment_result.append(por_jpp[0]/max(1,por_succ[0]))
 		
 		
 		experiment_result.append([percentage_swap((por_states[2]/max(1,nml_states[2]))*100), percentage_swap((por_states[3]/max(1,nml_states[3]))*100)])
@@ -270,7 +270,7 @@ def plot_experiment(experiment, ex_location):
 	#plot_result("",experiment,"utilization",[x[5] for x in experiment],"percentage", range(0,101,10),"memory difference w.r.t. original MC SAG",prefix=True, ex_location=ex_location)
 	plot_result("schedulable",experiment,"utilization",[x[7] for x in experiment],"percentage", range(0,101,10),"schedulable result", True, ["original", "POR"],prefix=False, ex_location=ex_location)
 	plot_result("nr reductions",experiment,"utilization",[x[8] for x in experiment],"# reductions", range(0,101,10),"Total number of reductions", True, ["successfull", "failed"], ex_location=ex_location)
-	plot_result("avg job per por",experiment,"utilization",[x[9] for x in experiment],"jobs", range(0,101,10),"average # jobs per reduction")
+	plot_result("avg job per por",experiment,"utilization",[x[9] for x in experiment],"jobs", range(0,101,10),"average # jobs per reduction", ex_location=ex_location)
 	
 	#plot_result("remaining states correct/wrong",experiment,"utilization",[[x[1], x[2]] for x in experiment],"percentage", range(0,101,10),"remaining states w.r.t. original MC SAG", True, ["correct", "wrong"], ex_location=ex_location)
 	#plot_result("",experiment,"utilization",[[x[3], x[4]] for x in experiment],"percentage", range(0,101,10),"runtime difference w.r.t. original MC SAG", True, ["correct", "wrong"], ex_location=ex_location)
