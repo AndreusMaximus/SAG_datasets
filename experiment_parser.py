@@ -4,11 +4,16 @@ import matplotlib.ticker as ticker
 
 import numpy
 
+import seaborn as sns
 
-experiment1 = [10,20,30,40,50,60,70,80,90,100]
+
+experiment1 = [10,20,30,40,50,60,70]
 res_experiment1_por = []
 res_experiment1_nml = []
 res_ex1_total = []
+scatter_X = []
+scatter_Y = []
+scatter_l = []
 def read_experiment1(ex_location):
 	for ex in experiment1:
 		unsorted_por = []
@@ -108,6 +113,15 @@ def parse_experiment(nml, por, experiment):
 					
 					runtime_nml[1].append(float(nml[ex][i][6]))
 					runtime_por[1].append(float(por[ex][i][6]))
+					
+					scatter_Y.append(float(nml[ex][i][6]))
+					scatter_X.append(float(nml[ex][i][2]))
+					scatter_l.append("sag unschedulable")
+					
+					
+					scatter_Y.append(float(por[ex][i][6]))
+					scatter_X.append(float(por[ex][i][2]))
+					scatter_l.append("sag-por unschedulable")
 				else:
 					t_sched += 1
 					nml_sched += 1
@@ -127,6 +141,14 @@ def parse_experiment(nml, por, experiment):
 					runtime_nml[0].append(float(nml[ex][i][6]))
 					runtime_por[0].append(float(por[ex][i][6]))
 					
+					scatter_Y.append(float(nml[ex][i][6]))
+					scatter_X.append(float(nml[ex][i][2]))
+					scatter_l.append("sag schedulable")
+					
+					
+					scatter_Y.append(float(por[ex][i][6]))
+					scatter_X.append(float(por[ex][i][2]))
+					scatter_l.append("sag-por schedulable")
 				
 			elif nml[ex][i][1] > por[ex][i][1]:
 				#normal says schedulable mine says no
@@ -145,6 +167,16 @@ def parse_experiment(nml, por, experiment):
 				
 				nml_sched += 1
 				por_unsched += 1
+				
+				
+				scatter_Y.append(float(nml[ex][i][6]))
+				scatter_X.append(float(nml[ex][i][2]))
+				scatter_l.append("sag schedulable")
+				
+				
+				scatter_Y.append(float(por[ex][i][6]))
+				scatter_X.append(float(por[ex][i][2]))
+				scatter_l.append("sag-por unschedulable")
 			else:
 				print("FAILURE", experiment[ex])
 				print(nml[ex][i])
@@ -289,15 +321,29 @@ def plot_experiment(experiment, ex_location):
 	
 	plot_result("total states",experiment,"utilization",[x[16] for x in experiment],"Number of states", [0],"Total number of states", True, ["original", "POR"], ex_location=ex_location)
 	
-	
+def scatter_plot(ex_location):
+
+	# Create scatter plot with different colors for each type
+	sns.scatterplot(x=scatter_X, y=scatter_Y, hue=scatter_l)
+
+	# Set labels for the x and y axes
+	plt.xlabel('# of jobs')
+	plt.ylabel('time')
+
+	# Get the current legend
+	legend = plt.legend()
+
+
+	# Display the scatter plot
+	plt.show()
 	
 
 def main(args):
-	print(sys.argv[1])
-	ex_location = sys.argv[1]+"/"
+	ex_location = "results-utilization-Auto-comb"+"/"
 	read_experiment1(ex_location)
 	parse_experiment(res_experiment1_nml, res_experiment1_por, experiment1)
 	plot_experiment(res_ex1_total, ex_location)
+	scatter_plot(ex_location)
 	
 	print([1,2,3,]+[4,5,6])
 	return 0
