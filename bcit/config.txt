@@ -1,0 +1,6 @@
+10,20,30,40,50,60,70
+sag
+sag-por-base
+sag-por-interfering
+sag-por-limit
+sag-por-interfering-limit
