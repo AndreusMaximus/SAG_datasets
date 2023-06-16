@@ -1,201 +1,25 @@
-file name,schedulable?,#jobs,#states,#edges,max width,CPU time,memory,timeout,#CPUs,#POR successes,#POR failures
-jobsets/jobset-taskset-0.csv,1,1844,16341,56388,231,0.368269,13.550781,0,4
-jobsets/jobset-taskset-1.csv,0,1236,386,1259,210,0.005891,13.550781,0,4
-jobsets/jobset-taskset-10.csv,0,2653,372,1128,196,0.010856,13.550781,0,4
-jobsets/jobset-taskset-100.csv,0,1335,382,1217,206,0.006641,13.550781,0,4
-jobsets/jobset-taskset-101.csv,0,1180,386,1259,210,0.005572,13.550781,0,4
-jobsets/jobset-taskset-102.csv,0,1093,566,1914,210,0.009543,13.550781,0,4
-jobsets/jobset-taskset-103.csv,1,1174,7969,24353,231,0.121526,13.550781,0,4
-jobsets/jobset-taskset-104.csv,0,2347,512,1929,210,0.021972,13.550781,0,4
-jobsets/jobset-taskset-105.csv,0,19049,630,2383,244,0.239167,16.125000,0,4
-jobsets/jobset-taskset-106.csv,0,1139,617,2385,231,0.011811,13.550781,0,4
-jobsets/jobset-taskset-107.csv,1,1699,10509,31889,231,0.226315,13.554688,0,4
-jobsets/jobset-taskset-108.csv,0,415,617,2385,231,0.005594,13.554688,0,4
-jobsets/jobset-taskset-109.csv,0,37311,582,1930,210,0.758958,27.378906,0,4
-jobsets/jobset-taskset-11.csv,1,38317,209821,603327,231,106.834443,27.449219,0,4
-jobsets/jobset-taskset-110.csv,0,9199,380,1196,204,0.043504,13.484375,0,4
-jobsets/jobset-taskset-111.csv,1,2211,18356,57398,231,0.539767,13.554688,0,4
-jobsets/jobset-taskset-112.csv,1,12649,157318,524655,246,27.578196,13.484375,0,4
-jobsets/jobset-taskset-113.csv,0,67489,582,2205,210,2.399944,46.828125,0,4
-jobsets/jobset-taskset-114.csv,0,701,582,2210,210,0.007487,13.558594,0,4
-jobsets/jobset-taskset-115.csv,1,141,1661,6057,210,0.008306,13.558594,0,4
-jobsets/jobset-taskset-116.csv,0,513,627,2420,241,0.005918,13.558594,0,4
-jobsets/jobset-taskset-117.csv,0,5270,568,1916,210,0.047805,13.558594,0,4
-jobsets/jobset-taskset-118.csv,0,502,351,1022,175,0.002344,13.484375,0,4
-jobsets/jobset-taskset-119.csv,1,1103,10473,35671,231,0.150338,13.558594,0,4
-jobsets/jobset-taskset-12.csv,1,1877,13646,43319,231,0.344519,13.558594,0,4
-jobsets/jobset-taskset-120.csv,0,1381,382,1217,206,0.006228,13.558594,0,4
-jobsets/jobset-taskset-121.csv,0,81449,582,2210,210,3.092437,54.660156,0,4
-jobsets/jobset-taskset-122.csv,1,8273,50946,142541,231,5.535688,13.558594,0,4
-jobsets/jobset-taskset-123.csv,0,6559,483,1726,210,0.047702,13.562500,0,4
-jobsets/jobset-taskset-124.csv,1,2949,16838,48913,248,0.654786,13.562500,0,4
-jobsets/jobset-taskset-125.csv,0,1077,386,1259,210,0.005182,13.562500,0,4
-jobsets/jobset-taskset-126.csv,1,4805,22808,59740,210,1.307599,13.562500,0,4
-jobsets/jobset-taskset-127.csv,0,901,613,2206,227,0.009366,13.562500,0,4
-jobsets/jobset-taskset-128.csv,0,33291,617,2381,231,0.811705,24.257812,0,4
-jobsets/jobset-taskset-129.csv,0,711,617,2374,231,0.007762,13.558594,0,4
-jobsets/jobset-taskset-13.csv,1,587,5430,18630,246,0.047713,13.558594,0,4
-jobsets/jobset-taskset-130.csv,1,4681,34828,98741,231,2.211226,13.558594,0,4
-jobsets/jobset-taskset-131.csv,0,32003,579,2032,210,0.565207,23.894531,0,4
-jobsets/jobset-taskset-132.csv,0,1309,582,2206,210,0.011447,13.562500,0,4
-jobsets/jobset-taskset-133.csv,1,2815,15073,43620,231,0.497557,13.558594,0,4
-jobsets/jobset-taskset-134.csv,0,1321,617,2354,231,0.011818,13.554688,0,4
-jobsets/jobset-taskset-135.csv,0,6381,582,2202,210,0.057882,13.554688,0,4
-jobsets/jobset-taskset-136.csv,1,958,7158,24110,231,0.092630,13.562500,0,4
-jobsets/jobset-taskset-137.csv,0,21437,633,2386,247,0.264321,16.925781,0,4
-jobsets/jobset-taskset-138.csv,1,2083,13240,38337,231,0.313477,13.558594,0,4
-jobsets/jobset-taskset-139.csv,1,82477,435494,1146232,231,732.562050,54.437500,0,4
-jobsets/jobset-taskset-14.csv,1,1651,15688,53015,246,0.382752,13.558594,0,4
-jobsets/jobset-taskset-140.csv,1,2761,15737,49173,252,0.627538,13.562500,0,4
-jobsets/jobset-taskset-141.csv,0,7547,582,2209,210,0.089078,13.566406,0,4
-jobsets/jobset-taskset-142.csv,0,8877,509,1752,210,0.072619,13.554688,0,4
-jobsets/jobset-taskset-143.csv,1,1035,9248,28781,231,0.140846,13.562500,0,4
-jobsets/jobset-taskset-144.csv,1,1145,9898,34655,251,0.153607,13.562500,0,4
-jobsets/jobset-taskset-145.csv,1,1226,6183,16982,210,0.086161,13.558594,0,4
-jobsets/jobset-taskset-146.csv,1,7806,39510,111192,246,3.979861,13.558594,0,4
-jobsets/jobset-taskset-147.csv,0,17859,383,1218,207,0.094835,14.109375,0,4
-jobsets/jobset-taskset-148.csv,0,4461,582,2189,210,0.042583,13.554688,0,4
-jobsets/jobset-taskset-149.csv,1,4147,24124,67807,231,1.342055,13.562500,0,4
-jobsets/jobset-taskset-15.csv,0,41333,501,1534,210,0.623290,29.960938,0,4
-jobsets/jobset-taskset-150.csv,1,3649,22458,66802,246,1.043410,13.566406,0,4
-jobsets/jobset-taskset-151.csv,0,85058,582,2261,210,3.422955,57.640625,0,4
-jobsets/jobset-taskset-152.csv,1,2634,12041,32445,210,0.384154,13.554688,0,4
-jobsets/jobset-taskset-153.csv,0,10336,582,2210,210,0.098862,13.558594,0,4
-jobsets/jobset-taskset-154.csv,1,4925,31915,96448,210,1.903904,13.554688,0,4
-jobsets/jobset-taskset-155.csv,0,8203,512,1924,210,0.069641,13.562500,0,4
-jobsets/jobset-taskset-156.csv,0,3265,582,2208,210,0.036239,13.562500,0,4
-jobsets/jobset-taskset-157.csv,0,1328,381,1203,205,0.006335,13.558594,0,4
-jobsets/jobset-taskset-158.csv,0,7283,737,2875,231,0.106375,13.562500,0,4
-jobsets/jobset-taskset-159.csv,0,1865,631,2384,245,0.021874,13.558594,0,4
-jobsets/jobset-taskset-16.csv,0,6721,386,1259,210,0.035293,13.558594,0,4
-jobsets/jobset-taskset-160.csv,1,3917,28538,89529,231,1.567917,13.562500,0,4
-jobsets/jobset-taskset-161.csv,1,34901,239326,754278,306,107.771572,25.281250,0,4
-jobsets/jobset-taskset-162.csv,1,1048,8099,25530,210,0.110100,13.562500,0,4
-jobsets/jobset-taskset-163.csv,1,8153,41350,109987,246,4.226309,13.558594,0,4
-jobsets/jobset-taskset-164.csv,1,4429,29657,88428,210,1.705923,13.558594,0,4
-jobsets/jobset-taskset-165.csv,0,3596,617,2377,231,0.036738,13.554688,0,4
-jobsets/jobset-taskset-166.csv,0,277,590,2175,211,0.004198,13.558594,0,4
-jobsets/jobset-taskset-167.csv,0,250801,732,2870,231,10.843140,166.449219,0,4
-jobsets/jobset-taskset-168.csv,0,4203,386,1259,210,0.021262,13.558594,0,4
-jobsets/jobset-taskset-169.csv,0,451,582,2181,210,0.005478,13.562500,0,4
-jobsets/jobset-taskset-17.csv,0,7897,612,2320,226,0.093181,13.554688,0,4
-jobsets/jobset-taskset-170.csv,0,13424,381,1203,205,0.068558,13.558594,0,4
-jobsets/jobset-taskset-171.csv,0,30749,617,2376,231,0.688189,23.468750,0,4
-jobsets/jobset-taskset-172.csv,1,38729,121822,282454,210,52.620060,27.281250,0,4
-jobsets/jobset-taskset-173.csv,0,1341,637,2531,251,0.014060,13.558594,0,4
-jobsets/jobset-taskset-174.csv,0,1032,689,2457,210,0.013927,13.562500,0,4
-jobsets/jobset-taskset-175.csv,1,26339,99006,237650,246,29.290400,19.765625,0,4
-jobsets/jobset-taskset-176.csv,0,4113,582,2176,210,0.037535,13.558594,0,4
-jobsets/jobset-taskset-177.csv,0,21269,616,2209,230,0.273220,16.234375,0,4
-jobsets/jobset-taskset-178.csv,0,21957,387,1280,211,0.124396,17.054688,0,4
-jobsets/jobset-taskset-179.csv,0,14661,569,1917,210,0.150978,13.554688,0,4
-jobsets/jobset-taskset-18.csv,1,2963,14118,38118,231,0.416019,13.554688,0,4
-jobsets/jobset-taskset-180.csv,1,12729,63361,180526,210,8.831291,13.554688,0,4
-jobsets/jobset-taskset-181.csv,1,1720,8566,24309,210,0.167197,13.558594,0,4
-jobsets/jobset-taskset-182.csv,1,5293,28119,77209,231,1.792028,13.558594,0,4
-jobsets/jobset-taskset-183.csv,1,9386,48476,129523,210,5.367753,13.562500,0,4
-jobsets/jobset-taskset-184.csv,1,1968,9728,28318,231,0.237436,13.558594,0,4
-jobsets/jobset-taskset-185.csv,1,3088,19909,58816,231,0.793785,13.562500,0,4
-jobsets/jobset-taskset-186.csv,0,1059,371,1133,195,0.004691,13.558594,0,4
-jobsets/jobset-taskset-187.csv,0,24409,513,1926,210,0.212039,17.648438,0,4
-jobsets/jobset-taskset-188.csv,0,1809,387,1280,211,0.009372,13.554688,0,4
-jobsets/jobset-taskset-189.csv,1,1447,11266,36177,231,0.183294,13.554688,0,4
-jobsets/jobset-taskset-19.csv,0,2306,378,1182,202,0.009538,13.554688,0,4
-jobsets/jobset-taskset-190.csv,1,7607,54760,159075,231,5.425686,13.554688,0,4
-jobsets/jobset-taskset-191.csv,0,13124,512,1929,210,0.111215,13.558594,0,4
-jobsets/jobset-taskset-192.csv,0,5971,382,1217,206,0.025573,13.554688,0,4
-jobsets/jobset-taskset-193.csv,1,5885,24016,63904,231,1.444430,13.558594,0,4
-jobsets/jobset-taskset-194.csv,0,3599,376,1169,200,0.014804,13.554688,0,4
-jobsets/jobset-taskset-195.csv,0,112043,582,2206,210,3.229949,78.226562,0,4
-jobsets/jobset-taskset-196.csv,0,3268,378,1171,202,0.014577,13.554688,0,4
-jobsets/jobset-taskset-197.csv,0,3239,633,2481,247,0.038385,13.562500,0,4
-jobsets/jobset-taskset-198.csv,1,6872,42656,126811,251,3.974023,13.558594,0,4
-jobsets/jobset-taskset-199.csv,1,7675,39935,108566,231,3.688910,13.558594,0,4
-jobsets/jobset-taskset-2.csv,1,1906,11855,35492,246,0.297712,13.554688,0,4
-jobsets/jobset-taskset-20.csv,0,27565,387,1280,211,0.367006,19.675781,0,4
-jobsets/jobset-taskset-21.csv,0,491,512,1929,210,0.005198,13.554688,0,4
-jobsets/jobset-taskset-22.csv,0,8459,382,1217,206,0.039030,13.554688,0,4
-jobsets/jobset-taskset-23.csv,0,4205,582,1930,210,0.037550,13.562500,0,4
-jobsets/jobset-taskset-24.csv,0,5977,378,1182,202,0.026452,13.554688,0,4
-jobsets/jobset-taskset-25.csv,0,7354,384,1238,208,0.035298,13.554688,0,4
-jobsets/jobset-taskset-26.csv,0,2176,582,2209,210,0.020841,13.562500,0,4
-jobsets/jobset-taskset-27.csv,0,1077,512,1923,210,0.009854,13.566406,0,4
-jobsets/jobset-taskset-28.csv,0,2620,617,2382,231,0.030150,13.562500,0,4
-jobsets/jobset-taskset-29.csv,1,27697,83752,193432,210,21.360631,20.464844,0,4
-jobsets/jobset-taskset-3.csv,0,1690,603,2196,217,0.017548,13.562500,0,4
-jobsets/jobset-taskset-30.csv,1,8992,56045,164186,231,6.182527,13.562500,0,4
-jobsets/jobset-taskset-31.csv,1,32224,127724,322416,210,40.849967,23.117188,0,4
-jobsets/jobset-taskset-32.csv,1,1696,9377,28730,246,0.214474,13.554688,0,4
-jobsets/jobset-taskset-33.csv,1,455,4717,15344,246,0.042663,13.562500,0,4
-jobsets/jobset-taskset-34.csv,0,698,617,2385,231,0.008616,13.562500,0,4
-jobsets/jobset-taskset-35.csv,1,5035,27241,75653,210,1.732553,13.562500,0,4
-jobsets/jobset-taskset-36.csv,1,19976,112275,309158,210,27.659531,15.429688,0,4
-jobsets/jobset-taskset-37.csv,1,1439,8579,24221,210,0.166443,13.562500,0,4
-jobsets/jobset-taskset-38.csv,0,33011,513,1922,210,0.736028,24.195312,0,4
-jobsets/jobset-taskset-39.csv,1,2459,14585,41927,210,0.476639,13.558594,0,4
-jobsets/jobset-taskset-4.csv,0,2263,513,1877,210,0.018248,13.562500,0,4
-jobsets/jobset-taskset-40.csv,0,6247,632,2485,246,0.075401,13.562500,0,4
-jobsets/jobset-taskset-41.csv,0,5246,520,1938,211,0.046437,13.562500,0,4
-jobsets/jobset-taskset-42.csv,0,13134,632,2485,246,0.135662,13.562500,0,4
-jobsets/jobset-taskset-43.csv,0,16468,614,2282,228,0.208344,13.562500,0,4
-jobsets/jobset-taskset-44.csv,0,17509,617,2383,231,0.205671,14.382812,0,4
-jobsets/jobset-taskset-45.csv,0,24839,583,2203,210,0.325030,18.945312,0,4
-jobsets/jobset-taskset-46.csv,0,4049,612,2316,226,0.039441,13.558594,0,4
-jobsets/jobset-taskset-47.csv,0,4675,378,1176,202,0.021446,13.558594,0,4
-jobsets/jobset-taskset-48.csv,0,3396,617,2210,231,0.036466,13.558594,0,4
-jobsets/jobset-taskset-49.csv,0,2092,358,1065,182,0.008307,13.554688,0,4
-jobsets/jobset-taskset-5.csv,0,2009,611,2294,225,0.021486,13.562500,0,4
-jobsets/jobset-taskset-50.csv,0,23414,617,2381,231,0.358776,18.789062,0,4
-jobsets/jobset-taskset-51.csv,1,2367,20757,65122,210,0.675857,13.558594,0,4
-jobsets/jobset-taskset-52.csv,0,1789,617,2378,231,0.019131,13.558594,0,4
-jobsets/jobset-taskset-53.csv,0,1118,582,2210,210,0.011917,13.562500,0,4
-jobsets/jobset-taskset-54.csv,1,2021,15564,51187,246,0.436346,13.562500,0,4
-jobsets/jobset-taskset-55.csv,0,3833,582,2207,210,0.042164,13.558594,0,4
-jobsets/jobset-taskset-56.csv,0,2053,631,2454,245,0.021443,13.562500,0,4
-jobsets/jobset-taskset-57.csv,0,1825,561,1909,210,0.017692,13.558594,0,4
-jobsets/jobset-taskset-58.csv,0,1067,582,2192,210,0.011202,13.558594,0,4
-jobsets/jobset-taskset-59.csv,0,2419,582,2210,210,0.022965,13.562500,0,4
-jobsets/jobset-taskset-6.csv,0,5981,371,1127,195,0.027650,13.558594,0,4
-jobsets/jobset-taskset-60.csv,1,6426,35539,97896,266,2.344831,13.554688,0,4
-jobsets/jobset-taskset-61.csv,0,3229,503,1641,210,0.029021,13.558594,0,4
-jobsets/jobset-taskset-62.csv,0,4447,512,1918,210,0.039753,13.558594,0,4
-jobsets/jobset-taskset-63.csv,0,7621,632,2481,246,0.094626,13.558594,0,4
-jobsets/jobset-taskset-64.csv,0,4774,385,1245,209,0.026056,13.562500,0,4
-jobsets/jobset-taskset-65.csv,1,4516,15751,39671,246,0.706867,13.562500,0,4
-jobsets/jobset-taskset-66.csv,0,55043,576,2029,210,2.008591,36.730469,0,4
-jobsets/jobset-taskset-67.csv,0,35891,371,1133,195,0.425475,23.316406,0,4
-jobsets/jobset-taskset-68.csv,0,4379,810,3358,231,0.079877,13.562500,0,4
-jobsets/jobset-taskset-69.csv,1,6039,41959,124522,210,3.015412,13.558594,0,4
-jobsets/jobset-taskset-7.csv,0,1737,513,1806,210,0.011681,13.562500,0,4
-jobsets/jobset-taskset-70.csv,0,2637,632,2481,246,0.026948,13.562500,0,4
-jobsets/jobset-taskset-71.csv,0,3617,577,2142,210,0.034569,13.554688,0,4
-jobsets/jobset-taskset-72.csv,0,11977,608,2224,222,0.120706,13.562500,0,4
-jobsets/jobset-taskset-73.csv,0,1018,617,2371,231,0.010355,13.562500,0,4
-jobsets/jobset-taskset-74.csv,0,6274,385,1239,209,0.031739,13.558594,0,4
-jobsets/jobset-taskset-75.csv,0,822,578,2031,210,0.007665,13.562500,0,4
-jobsets/jobset-taskset-76.csv,0,3891,376,1169,200,0.018403,13.554688,0,4
-jobsets/jobset-taskset-77.csv,1,27127,190385,547734,252,61.996419,19.500000,0,4
-jobsets/jobset-taskset-78.csv,0,2413,604,2142,218,0.025567,13.554688,0,4
-jobsets/jobset-taskset-79.csv,1,56807,177921,405466,231,122.002790,40.460938,0,4
-jobsets/jobset-taskset-8.csv,0,463,580,2108,210,0.005447,13.554688,0,4
-jobsets/jobset-taskset-80.csv,1,2497,18805,58315,231,0.509155,13.562500,0,4
-jobsets/jobset-taskset-81.csv,1,4153,24429,66889,210,1.250928,13.554688,0,4
-jobsets/jobset-taskset-82.csv,1,1946,14901,48100,210,0.315147,13.558594,0,4
-jobsets/jobset-taskset-83.csv,0,2617,617,2385,231,0.026849,13.558594,0,4
-jobsets/jobset-taskset-84.csv,0,1933,617,2385,231,0.016969,13.558594,0,4
-jobsets/jobset-taskset-85.csv,0,47839,373,1148,197,0.564255,32.105469,0,4
-jobsets/jobset-taskset-86.csv,0,887,520,1930,211,0.007102,13.558594,0,4
-jobsets/jobset-taskset-87.csv,0,7211,652,2558,210,0.088234,13.558594,0,4
-jobsets/jobset-taskset-88.csv,0,1131,381,1197,205,0.005206,13.558594,0,4
-jobsets/jobset-taskset-89.csv,0,1727,582,2176,210,0.014429,13.558594,0,4
-jobsets/jobset-taskset-9.csv,0,571,512,1930,210,0.006237,13.558594,0,4
-jobsets/jobset-taskset-90.csv,0,1709,512,1897,210,0.013094,13.558594,0,4
-jobsets/jobset-taskset-91.csv,1,241,2854,10175,231,0.019328,13.558594,0,4
-jobsets/jobset-taskset-92.csv,0,33167,386,1259,210,0.282065,21.632812,0,4
-jobsets/jobset-taskset-93.csv,0,2755,615,2260,229,0.026127,13.558594,0,4
-jobsets/jobset-taskset-94.csv,1,3386,22083,68488,231,0.904758,13.558594,0,4
-jobsets/jobset-taskset-95.csv,0,2305,582,2206,210,0.025166,13.562500,0,4
-jobsets/jobset-taskset-96.csv,0,1741,617,2210,231,0.018921,13.562500,0,4
-jobsets/jobset-taskset-97.csv,0,46939,582,2192,210,0.821999,32.757812,0,4
-jobsets/jobset-taskset-98.csv,1,1655,7498,22124,231,0.156168,13.562500,0,4
-jobsets/jobset-taskset-99.csv,1,597,5158,17029,231,0.049272,13.562500,0,4
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-0.csv,  1,  1844,  16342,  56388,  231,  0.466488,  5.750000,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-1.csv,  0,  1236,  386,  1259,  120,  0.008013,  5.246094,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-2.csv,  1,  1906,  11856,  35492,  246,  0.367694,  5.742188,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-3.csv,  0,  1690,  603,  2196,  210,  0.021183,  5.722656,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-4.csv,  0,  2263,  513,  1877,  210,  0.023181,  6.246094,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-5.csv,  0,  2009,  611,  2294,  210,  0.030919,  5.917969,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-6.csv,  0,  5981,  371,  1127,  120,  0.036577,  9.296875,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-7.csv,  0,  1737,  513,  1806,  210,  0.014421,  5.800781,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-8.csv,  0,  463,  580,  2108,  210,  0.007516,  4.761719,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-9.csv,  0,  571,  512,  1930,  210,  0.008185,  4.707031,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-10.csv,  0,  2653,  372,  1128,  120,  0.014346,  6.582031,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-11.csv,  1,  38317,  209822,  603327,  231,  118.837820,  31.441406,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-12.csv,  1,  1877,  13647,  43319,  231,  0.423609,  5.750000,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-13.csv,  1,  587,  5431,  18630,  246,  0.065219,  4.835938,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-14.csv,  1,  1651,  15689,  53015,  246,  0.484966,  5.421875,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-15.csv,  0,  41333,  501,  1534,  210,  0.533125,  31.027344,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-16.csv,  0,  6721,  386,  1259,  120,  0.039535,  11.597656,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-17.csv,  0,  7897,  612,  2320,  210,  0.123222,  11.859375,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-18.csv,  1,  2963,  14119,  38118,  231,  0.545749,  6.574219,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-19.csv,  0,  2306,  378,  1182,  120,  0.014247,  6.269531,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-20.csv,  0,  27565,  387,  1280,  120,  0.249717,  21.082031,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-21.csv,  0,  491,  512,  1929,  210,  0.006591,  4.757812,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-22.csv,  0,  8459,  382,  1217,  120,  0.053778,  14.609375,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-23.csv,  0,  4205,  582,  1930,  210,  0.061460,  7.738281,  0,  4,  0,  0,  0
+../../SAG_datasets/results-uunifast-ecrt19-periods/task-sets/20/jobsets/jobset-taskset-24.csv,  0,  5977,  378,  1182,  120,  0.053719,  9.445312,  0,  4,  0,  0,  0
