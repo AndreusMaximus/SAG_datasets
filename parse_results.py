@@ -6,14 +6,14 @@ import numpy
 
 import seaborn as sns
 
-def correctness_check(set_index, test_index,ex):
-	if int(full_raw[0][1][set_index][1]) < int(full_raw[test_index][1][set_index][1]):
-		print(full_raw[0][1][set_index][0])
-		#todo add the correctness check that tests the BCRT and WCRT values as well
+def correctness_check(set_index, test_index, comp_index, ex):
+	if int(full_raw[comp_index][ex][set_index][1]) < int(full_raw[test_index][ex][set_index][1]):
+		print(full_raw[comp_index][ex][set_index][0])
 	
 
 experiment = []
 test_names = []
+comp_names = []
 scatter = []	
 parsed_results = []
 full_raw = []
@@ -35,7 +35,8 @@ def set_config(ex_path):
 			experiment.append(int(ex))
 			scatter.append([])
 		for t in lines[1:]:
-			test_names.append(t)
+			test_names.append(t.split("|")[0])
+			comp_names.append(t.split("|")[1])
 		
 
 def parse_result(ex_path,test_name):
@@ -53,11 +54,17 @@ def parse_result(ex_path,test_name):
 		tmp_result.append(sorted(tmp_test, key=lambda x: x[0]))
 	full_raw.append(tmp_result)
 		
-def parse_raw(test_name):
+def parse_raw(test_name,comp_name):
 	raw = 0
 	for r in range(len(full_raw)):
 		if full_raw[r][0] == test_name:
 			raw = r
+	comp = -1
+	if comp_name != "":
+		for c in range(len(full_raw)):
+			if full_raw[c][0] == comp_name:
+				comp = c
+		
 	tmp_results = []
 	tmp_results.append(test_name)
 	std_dev = [test_name + " stdev"]
@@ -94,7 +101,7 @@ def parse_raw(test_name):
 			t_mem[int(full_raw[raw][ex][r][1])] += float(full_raw[raw][ex][r][7])
 			
 			times[int(full_raw[raw][ex][r][1])].append(float(full_raw[raw][ex][r][6]))
-			if test_name != "sag":
+			if test_name.find("por") != -1:
 				t_s_red += int(full_raw[raw][ex][r][10])
 				t_f_red += int(full_raw[raw][ex][r][11])
 				t_jpred += int(full_raw[raw][ex][r][12])
@@ -104,7 +111,8 @@ def parse_raw(test_name):
 				scatter[e].append([int(full_raw[raw][ex][r][2]),float(full_raw[raw][ex][r][6]),f"{test_name}-unsched"])
 			if int(full_raw[raw][ex][r][1]) == 1:
 				scatter[e].append([int(full_raw[raw][ex][r][2]),float(full_raw[raw][ex][r][6]),f"{test_name}-sched"])
-				correctness_check(r,raw, ex)
+				if comp != -1:
+					correctness_check(r,raw, comp, ex)
 		
 		#calc the standard deviation and mean
 		t_std = numpy.std(times[0] + times[1])
@@ -540,10 +548,12 @@ def write_std_mean(ex_location):
 		
 def parse_experiment(path):
 	set_config(path)
+	print(test_names)
+	print(comp_names)
 	for t in test_names:
 		parse_result(path, t)
-	for t in test_names:
-		parse_raw(t)
+	for name in range(len(test_names)):
+		parse_raw(test_names[name],comp_names[name])
 	
 	plot_scatters(path)
 	
